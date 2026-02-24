@@ -61,14 +61,14 @@ export default function Header() {
         <div className="hidden lg:flex items-center gap-4">
           <button
             onClick={toggleLang}
-            className="text-xs font-mono tracking-widest text-zinc-400 hover:text-[#00b4d8] transition-colors border border-white/10 px-3 py-1.5 hover:border-[#00b4d8]/50"
+            className="text-xs font-mono tracking-widest text-zinc-400 hover:text-[#10b981] transition-colors border border-white/10 px-3 py-1.5 hover:border-[#10b981]/50"
             data-testid="lang-toggle"
           >
             {lang === 'de' ? 'EN' : 'DE'}
           </button>
           <a
             href="tel:+4917641810937"
-            className="flex items-center gap-2 bg-[#00b4d8] text-white px-5 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all hover:shadow-[0_0_20px_rgba(0,180,216,0.4)]"
+            className="flex items-center gap-2 bg-[#10b981] text-white px-5 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all hover:shadow-[0_0_20px_rgba(0,180,216,0.4)]"
             data-testid="header-call-btn"
           >
             <Phone className="w-3.5 h-3.5" />
@@ -80,7 +80,7 @@ export default function Header() {
         <div className="flex lg:hidden items-center gap-3">
           <button
             onClick={toggleLang}
-            className="text-xs font-mono tracking-widest text-zinc-400 hover:text-[#00b4d8] transition-colors border border-white/10 px-2 py-1"
+            className="text-xs font-mono tracking-widest text-zinc-400 hover:text-[#10b981] transition-colors border border-white/10 px-2 py-1"
             data-testid="lang-toggle-mobile"
           >
             {lang === 'de' ? 'EN' : 'DE'}
@@ -99,7 +99,7 @@ export default function Header() {
                   <button
                     key={link.key}
                     onClick={() => handleNavClick(link.href)}
-                    className="text-left text-base text-zinc-300 hover:text-[#00b4d8] py-3 px-2 transition-colors uppercase tracking-wider font-medium border-b border-white/5"
+                    className="text-left text-base text-zinc-300 hover:text-[#10b981] py-3 px-2 transition-colors uppercase tracking-wider font-medium border-b border-white/5"
                     data-testid={`mobile-nav-${link.key}`}
                   >
                     {t(link.key)}
@@ -107,7 +107,7 @@ export default function Header() {
                 ))}
                 <a
                   href="tel:+4917641810937"
-                  className="flex items-center justify-center gap-2 bg-[#00b4d8] text-white px-5 py-3 mt-6 text-sm font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all"
+                  className="flex items-center justify-center gap-2 bg-[#10b981] text-white px-5 py-3 mt-6 text-sm font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all"
                   data-testid="mobile-call-btn"
                 >
                   <Phone className="w-4 h-4" />
