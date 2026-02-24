@@ -39,7 +39,7 @@ export default function AboutSection() {
             <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 mt-12 stagger-children">
               {features.map(({ key, icon: Icon }) => (
                 <div key={key} className="animate-on-scroll flex flex-col items-center text-center group">
-                  <div className="w-14 h-14 flex items-center justify-center border border-white/10 mb-3 group-hover:border-[#2dd4bf] group-hover:shadow-[0_0_15px_rgba(45,212,191,0.2)] transition-all duration-300">
+                  <div className="w-14 h-14 flex items-center justify-center border border-white/10 mb-3 group-hover:border-[#34d399] group-hover:shadow-[0_0_15px_rgba(45,212,191,0.2)] transition-all duration-300">
                     <Icon className="w-6 h-6 text-[#10b981]" />
                   </div>
                   <span className="text-xs font-medium text-zinc-400 uppercase tracking-wider">{t(key)}</span>
@@ -60,8 +60,8 @@ export default function AboutSection() {
               <div className="absolute inset-0 bg-gradient-to-t from-[#0a0a0a] via-transparent to-transparent" />
             </div>
             {/* Neon accent corner */}
-            <div className="absolute -bottom-3 -right-3 w-24 h-24 border-b-2 border-r-2 border-[#2dd4bf]/40" />
-            <div className="absolute -top-3 -left-3 w-24 h-24 border-t-2 border-l-2 border-[#2dd4bf]/40" />
+            <div className="absolute -bottom-3 -right-3 w-24 h-24 border-b-2 border-r-2 border-[#34d399]/40" />
+            <div className="absolute -top-3 -left-3 w-24 h-24 border-t-2 border-l-2 border-[#34d399]/40" />
           </div>
         </div>
       </div>
