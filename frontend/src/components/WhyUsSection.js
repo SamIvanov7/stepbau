@@ -36,13 +36,13 @@ export default function WhyUsSection() {
               <div className="flex gap-6">
                 {/* Number */}
                 <div className="flex-shrink-0">
-                  <span className="text-5xl font-black text-[#2dd4bf]/20 group-hover:text-[#2dd4bf]/40 transition-colors duration-300 font-mono leading-none">
+                  <span className="text-5xl font-black text-[#34d399]/20 group-hover:text-[#34d399]/40 transition-colors duration-300 font-mono leading-none">
                     0{key}
                   </span>
                 </div>
 
                 {/* Content */}
-                <div className="border-l-2 border-[#2dd4bf]/30 pl-6 group-hover:border-[#2dd4bf] transition-colors duration-300">
+                <div className="border-l-2 border-[#34d399]/30 pl-6 group-hover:border-[#34d399] transition-colors duration-300">
                   <div className="flex items-center gap-3 mb-2">
                     <Icon className="w-4 h-4 text-[#10b981]" />
                     <h3 className="text-base font-bold text-white tracking-tight">
