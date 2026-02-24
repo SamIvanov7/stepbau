@@ -38,7 +38,7 @@ export default function CookieBanner() {
         <div className="flex items-center gap-3 flex-shrink-0">
           <button
             onClick={handleAccept}
-            className="bg-[#10b981] text-white px-6 py-2 text-xs font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all"
+            className="bg-[#10b981] text-white px-6 py-2 text-xs font-bold uppercase tracking-widest hover:bg-[#059669] transition-all"
             data-testid="cookie-accept-btn"
           >
             {t('cookie_accept')}
