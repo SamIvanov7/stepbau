@@ -3,11 +3,11 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { Layers, PaintBucket, Grid3X3, Wrench, Building2, Home } from 'lucide-react';
 
 const services = [
-  { key: 1, icon: Layers, color: '#00b4d8' },
+  { key: 1, icon: Layers, color: '#10b981' },
   { key: 2, icon: PaintBucket, color: '#2dd4bf' },
-  { key: 3, icon: Grid3X3, color: '#00b4d8' },
+  { key: 3, icon: Grid3X3, color: '#10b981' },
   { key: 4, icon: Wrench, color: '#2dd4bf' },
-  { key: 5, icon: Building2, color: '#00b4d8' },
+  { key: 5, icon: Building2, color: '#10b981' },
   { key: 6, icon: Home, color: '#2dd4bf' },
 ];
 
@@ -20,7 +20,7 @@ export default function ServicesSection() {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header */}
         <div className="animate-on-scroll mb-16">
-          <p className="text-xs font-mono text-[#00b4d8] tracking-[0.3em] uppercase mb-4">{t('nav_services')}</p>
+          <p className="text-xs font-mono text-[#10b981] tracking-[0.3em] uppercase mb-4">{t('nav_services')}</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight" data-testid="services-title">
             {t('services_title')}
           </h2>
