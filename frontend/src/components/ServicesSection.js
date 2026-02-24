@@ -31,7 +31,7 @@ export default function ServicesSection() {
           {services.map(({ key, icon: Icon, color }) => (
             <div
               key={key}
-              className="animate-on-scroll group relative bg-[#111111] border border-white/10 p-8 hover:border-[#34d399] hover:shadow-[0_0_20px_rgba(45,212,191,0.15)] transition-all duration-500 overflow-hidden cursor-default"
+              className="animate-on-scroll group relative bg-[#111111] border border-white/10 p-8 hover:border-[#34d399] hover:shadow-[0_0_20px_rgba(52,211,153,0.15)] transition-all duration-500 overflow-hidden cursor-default"
               data-testid={`service-card-${key}`}
             >
               {/* Hover gradient trace */}
