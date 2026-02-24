@@ -19,7 +19,7 @@ section {
   left: 0;
   right: 0;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.3), transparent);
+  background: linear-gradient(90deg, transparent, rgba(52, 211, 153, 0.3), transparent);
 }
 
 /* Service card border trace animation */
