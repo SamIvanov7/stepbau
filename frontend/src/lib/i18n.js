@@ -5,6 +5,7 @@ const translations = {
     nav_services: "Leistungen",
     nav_why: "Warum wir",
     nav_area: "Einsatzgebiet",
+    nav_portfolio: "Referenzen",
     nav_contact: "Kontakt",
     
     // Hero
