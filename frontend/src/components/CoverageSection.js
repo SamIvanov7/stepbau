@@ -43,7 +43,7 @@ export default function CoverageSection() {
 
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center border border-[#2dd4bf]/30">
+                  <div className="w-10 h-10 flex items-center justify-center border border-[#34d399]/30">
                     <MapPin className="w-5 h-5 text-[#10b981]" />
                   </div>
                   <div>
@@ -53,8 +53,8 @@ export default function CoverageSection() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center border border-[#2dd4bf]/30">
-                    <Navigation className="w-5 h-5 text-[#2dd4bf]" />
+                  <div className="w-10 h-10 flex items-center justify-center border border-[#34d399]/30">
+                    <Navigation className="w-5 h-5 text-[#34d399]" />
                   </div>
                   <div>
                     <p className="text-white font-medium text-sm">{t('coverage_range')}</p>
@@ -72,7 +72,7 @@ export default function CoverageSection() {
               </div>
               <div className="w-px h-10 bg-white/10" />
               <div className="text-center">
-                <span className="block text-2xl font-black text-[#2dd4bf]">100%</span>
+                <span className="block text-2xl font-black text-[#34d399]">100%</span>
                 <span className="text-[10px] text-zinc-500 uppercase tracking-widest font-mono">Flexibel</span>
               </div>
             </div>
