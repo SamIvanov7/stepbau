@@ -54,7 +54,7 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 mt-12">
             <a
               href="tel:+4917641810937"
-              className="inline-flex items-center justify-center gap-3 bg-[#10b981] text-white px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-[#059669] transition-all hover:shadow-[0_0_30px_rgba(0,180,216,0.4)]"
+              className="inline-flex items-center justify-center gap-3 bg-[#10b981] text-white px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-[#059669] transition-all hover:shadow-[0_0_30px_rgba(16,185,129,0.4)]"
               data-testid="hero-call-btn"
             >
               <Phone className="w-4 h-4" />
