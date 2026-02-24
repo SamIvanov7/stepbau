@@ -51,7 +51,7 @@ export default function ContactSection() {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header */}
         <div className="animate-on-scroll mb-16">
-          <p className="text-xs font-mono text-[#00b4d8] tracking-[0.3em] uppercase mb-4">{t('nav_contact')}</p>
+          <p className="text-xs font-mono text-[#10b981] tracking-[0.3em] uppercase mb-4">{t('nav_contact')}</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight" data-testid="contact-title">
             {t('contact_title')}
           </h2>
@@ -70,7 +70,7 @@ export default function ContactSection() {
                   value={form.name}
                   onChange={e => handleChange('name', e.target.value)}
                   placeholder={t('form_name_placeholder')}
-                  className="bg-[#1a1a1a] border-white/10 focus:border-[#00b4d8] text-white h-12 rounded-none focus:ring-1 focus:ring-[#00b4d8] placeholder:text-zinc-600"
+                  className="bg-[#1a1a1a] border-white/10 focus:border-[#10b981] text-white h-12 rounded-none focus:ring-1 focus:ring-[#10b981] placeholder:text-zinc-600"
                   data-testid="form-name-input"
                 />
               </div>
@@ -81,7 +81,7 @@ export default function ContactSection() {
                   value={form.firma}
                   onChange={e => handleChange('firma', e.target.value)}
                   placeholder={t('form_firma_placeholder')}
-                  className="bg-[#1a1a1a] border-white/10 focus:border-[#00b4d8] text-white h-12 rounded-none focus:ring-1 focus:ring-[#00b4d8] placeholder:text-zinc-600"
+                  className="bg-[#1a1a1a] border-white/10 focus:border-[#10b981] text-white h-12 rounded-none focus:ring-1 focus:ring-[#10b981] placeholder:text-zinc-600"
                   data-testid="form-firma-input"
                 />
               </div>
@@ -97,7 +97,7 @@ export default function ContactSection() {
                   value={form.telefon}
                   onChange={e => handleChange('telefon', e.target.value)}
                   placeholder={t('form_telefon_placeholder')}
-                  className="bg-[#1a1a1a] border-white/10 focus:border-[#00b4d8] text-white h-12 rounded-none focus:ring-1 focus:ring-[#00b4d8] placeholder:text-zinc-600"
+                  className="bg-[#1a1a1a] border-white/10 focus:border-[#10b981] text-white h-12 rounded-none focus:ring-1 focus:ring-[#10b981] placeholder:text-zinc-600"
                   data-testid="form-telefon-input"
                 />
               </div>
@@ -110,7 +110,7 @@ export default function ContactSection() {
                   value={form.email}
                   onChange={e => handleChange('email', e.target.value)}
                   placeholder={t('form_email_placeholder')}
-                  className="bg-[#1a1a1a] border-white/10 focus:border-[#00b4d8] text-white h-12 rounded-none focus:ring-1 focus:ring-[#00b4d8] placeholder:text-zinc-600"
+                  className="bg-[#1a1a1a] border-white/10 focus:border-[#10b981] text-white h-12 rounded-none focus:ring-1 focus:ring-[#10b981] placeholder:text-zinc-600"
                   data-testid="form-email-input"
                 />
               </div>
@@ -125,7 +125,7 @@ export default function ContactSection() {
                 value={form.nachricht}
                 onChange={e => handleChange('nachricht', e.target.value)}
                 placeholder={t('form_nachricht_placeholder')}
-                className="bg-[#1a1a1a] border-white/10 focus:border-[#00b4d8] text-white rounded-none focus:ring-1 focus:ring-[#00b4d8] placeholder:text-zinc-600 resize-none"
+                className="bg-[#1a1a1a] border-white/10 focus:border-[#10b981] text-white rounded-none focus:ring-1 focus:ring-[#10b981] placeholder:text-zinc-600 resize-none"
                 data-testid="form-nachricht-input"
               />
             </div>
@@ -136,7 +136,7 @@ export default function ContactSection() {
                 id="datenschutz"
                 checked={form.datenschutz}
                 onCheckedChange={val => handleChange('datenschutz', val)}
-                className="mt-0.5 border-white/20 data-[state=checked]:bg-[#00b4d8] data-[state=checked]:border-[#00b4d8]"
+                className="mt-0.5 border-white/20 data-[state=checked]:bg-[#10b981] data-[state=checked]:border-[#10b981]"
                 data-testid="form-datenschutz-checkbox"
               />
               <Label htmlFor="datenschutz" className="text-xs text-zinc-400 leading-relaxed cursor-pointer">
@@ -148,7 +148,7 @@ export default function ContactSection() {
             <button
               type="submit"
               disabled={sending || !form.datenschutz}
-              className="inline-flex items-center justify-center gap-3 bg-[#00b4d8] text-white px-10 py-4 text-sm font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all hover:shadow-[0_0_30px_rgba(0,180,216,0.4)] disabled:opacity-50 disabled:cursor-not-allowed w-full sm:w-auto"
+              className="inline-flex items-center justify-center gap-3 bg-[#10b981] text-white px-10 py-4 text-sm font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all hover:shadow-[0_0_30px_rgba(0,180,216,0.4)] disabled:opacity-50 disabled:cursor-not-allowed w-full sm:w-auto"
               data-testid="form-submit-btn"
             >
               <Send className="w-4 h-4" />
@@ -166,7 +166,7 @@ export default function ContactSection() {
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
                   <div className="w-10 h-10 flex items-center justify-center border border-[#2dd4bf]/30 flex-shrink-0">
-                    <MapPin className="w-4 h-4 text-[#00b4d8]" />
+                    <MapPin className="w-4 h-4 text-[#10b981]" />
                   </div>
                   <div>
                     <p className="text-white font-medium text-sm">{t('contact_company')}</p>
@@ -178,18 +178,18 @@ export default function ContactSection() {
 
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 flex items-center justify-center border border-[#2dd4bf]/30 flex-shrink-0">
-                    <Phone className="w-4 h-4 text-[#00b4d8]" />
+                    <Phone className="w-4 h-4 text-[#10b981]" />
                   </div>
-                  <a href="tel:+4917641810937" className="text-white hover:text-[#00b4d8] transition-colors text-sm" data-testid="contact-phone-link">
+                  <a href="tel:+4917641810937" className="text-white hover:text-[#10b981] transition-colors text-sm" data-testid="contact-phone-link">
                     {t('contact_phone')}
                   </a>
                 </div>
 
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 flex items-center justify-center border border-[#2dd4bf]/30 flex-shrink-0">
-                    <Mail className="w-4 h-4 text-[#00b4d8]" />
+                    <Mail className="w-4 h-4 text-[#10b981]" />
                   </div>
-                  <a href="mailto:step.bau@outlook.de" className="text-white hover:text-[#00b4d8] transition-colors text-sm" data-testid="contact-email-link">
+                  <a href="mailto:step.bau@outlook.de" className="text-white hover:text-[#10b981] transition-colors text-sm" data-testid="contact-email-link">
                     {t('contact_email')}
                   </a>
                 </div>
