@@ -4,11 +4,11 @@ import { Layers, PaintBucket, Grid3X3, Wrench, Building2, Home } from 'lucide-re
 
 const services = [
   { key: 1, icon: Layers, color: '#10b981' },
-  { key: 2, icon: PaintBucket, color: '#2dd4bf' },
+  { key: 2, icon: PaintBucket, color: '#34d399' },
   { key: 3, icon: Grid3X3, color: '#10b981' },
-  { key: 4, icon: Wrench, color: '#2dd4bf' },
+  { key: 4, icon: Wrench, color: '#34d399' },
   { key: 5, icon: Building2, color: '#10b981' },
-  { key: 6, icon: Home, color: '#2dd4bf' },
+  { key: 6, icon: Home, color: '#34d399' },
 ];
 
 export default function ServicesSection() {
@@ -31,11 +31,11 @@ export default function ServicesSection() {
           {services.map(({ key, icon: Icon, color }) => (
             <div
               key={key}
-              className="animate-on-scroll group relative bg-[#111111] border border-white/10 p-8 hover:border-[#2dd4bf] hover:shadow-[0_0_20px_rgba(45,212,191,0.15)] transition-all duration-500 overflow-hidden cursor-default"
+              className="animate-on-scroll group relative bg-[#111111] border border-white/10 p-8 hover:border-[#34d399] hover:shadow-[0_0_20px_rgba(45,212,191,0.15)] transition-all duration-500 overflow-hidden cursor-default"
               data-testid={`service-card-${key}`}
             >
               {/* Hover gradient trace */}
-              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-[#2dd4bf]/5 to-transparent" />
+              <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500 bg-gradient-to-br from-[#34d399]/5 to-transparent" />
 
               {/* Number */}
               <span className="absolute top-4 right-4 text-6xl font-black text-white/[0.03] leading-none select-none">
@@ -43,7 +43,7 @@ export default function ServicesSection() {
               </span>
 
               <div className="relative z-10">
-                <div className="w-12 h-12 flex items-center justify-center border border-white/10 mb-6 group-hover:border-[#2dd4bf]/50 transition-all duration-300">
+                <div className="w-12 h-12 flex items-center justify-center border border-white/10 mb-6 group-hover:border-[#34d399]/50 transition-all duration-300">
                   <Icon className="w-5 h-5" style={{ color }} />
                 </div>
 
