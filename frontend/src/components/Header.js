@@ -68,7 +68,7 @@ export default function Header() {
           </button>
           <a
             href="tel:+4917641810937"
-            className="flex items-center gap-2 bg-[#10b981] text-white px-5 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-[#059669] transition-all hover:shadow-[0_0_20px_rgba(0,180,216,0.4)]"
+            className="flex items-center gap-2 bg-[#10b981] text-white px-5 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-[#059669] transition-all hover:shadow-[0_0_20px_rgba(16,185,129,0.4)]"
             data-testid="header-call-btn"
           >
             <Phone className="w-3.5 h-3.5" />
