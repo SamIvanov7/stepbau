@@ -230,6 +230,24 @@ const translations = {
     datenschutz_title: "Privacy Policy",
     datenschutz_text: "Responsible:\nStepan Tkachuk\nCranachstraße 23, 04177 Leipzig\nEmail: step.bau@outlook.de\n\nWe take the protection of your personal data very seriously. We treat your personal data confidentially and in accordance with the statutory data protection regulations and this privacy policy.\n\nThe use of our website is generally possible without providing personal data. Where personal data is collected on our pages (e.g., name, address, or email addresses), this is always done on a voluntary basis.\n\nContact form: When you send us inquiries via the contact form, your details from the inquiry form, including the contact data you provided there, will be stored by us for the purpose of processing the inquiry and in case of follow-up questions.",
     
+    // Portfolio
+    portfolio_title: "Our References",
+    portfolio_subtitle: "Selected projects from our portfolio. Quality that speaks for itself.",
+    portfolio_project_1_title: "Ceiling Plastering Residential",
+    portfolio_project_1_desc: "Q3 plastering of a new residential complex, Leipzig",
+    portfolio_project_2_title: "Flooring Office Complex",
+    portfolio_project_2_desc: "Laminate installation on 800m², commercial property",
+    portfolio_project_3_title: "Drywall Major Project",
+    portfolio_project_3_desc: "Suspended ceilings and stud walls, new build",
+    portfolio_project_4_title: "Conference Room Fit-out",
+    portfolio_project_4_desc: "Complete interior fit-out, office spaces Munich",
+    portfolio_project_5_title: "Wall Mounting & Cladding",
+    portfolio_project_5_desc: "Drywall cladding multi-family building",
+    portfolio_project_6_title: "Apartment Fit-out New Build",
+    portfolio_project_6_desc: "Turnkey interior finishing works",
+    portfolio_project_7_title: "Old Building Renovation",
+    portfolio_project_7_desc: "Ceiling and wall renovation, historic building",
+
     // Cookie
     cookie_text: "This website uses cookies to provide you with the best possible experience.",
     cookie_accept: "Accept",
