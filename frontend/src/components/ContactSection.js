@@ -148,7 +148,7 @@ export default function ContactSection() {
             <button
               type="submit"
               disabled={sending || !form.datenschutz}
-              className="inline-flex items-center justify-center gap-3 bg-[#10b981] text-white px-10 py-4 text-sm font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all hover:shadow-[0_0_30px_rgba(0,180,216,0.4)] disabled:opacity-50 disabled:cursor-not-allowed w-full sm:w-auto"
+              className="inline-flex items-center justify-center gap-3 bg-[#10b981] text-white px-10 py-4 text-sm font-bold uppercase tracking-widest hover:bg-[#059669] transition-all hover:shadow-[0_0_30px_rgba(0,180,216,0.4)] disabled:opacity-50 disabled:cursor-not-allowed w-full sm:w-auto"
               data-testid="form-submit-btn"
             >
               <Send className="w-4 h-4" />
