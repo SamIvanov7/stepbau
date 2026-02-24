@@ -22,7 +22,7 @@ export default function AboutSection() {
           {/* Left: Text */}
           <div>
             <div className="animate-on-scroll">
-              <p className="text-xs font-mono text-[#00b4d8] tracking-[0.3em] uppercase mb-4">{t('nav_about')}</p>
+              <p className="text-xs font-mono text-[#10b981] tracking-[0.3em] uppercase mb-4">{t('nav_about')}</p>
               <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight mb-8" data-testid="about-title">
                 {t('about_title')}
               </h2>
@@ -32,7 +32,7 @@ export default function AboutSection() {
               <p className="text-zinc-300 font-light leading-relaxed">{t('about_text_1')}</p>
               <p className="text-zinc-300 font-light leading-relaxed">{t('about_text_2')}</p>
               <p className="text-zinc-300 font-light leading-relaxed">{t('about_text_3')}</p>
-              <p className="text-[#00b4d8] font-medium leading-relaxed">{t('about_text_4')}</p>
+              <p className="text-[#10b981] font-medium leading-relaxed">{t('about_text_4')}</p>
             </div>
 
             {/* Feature icons */}
@@ -40,7 +40,7 @@ export default function AboutSection() {
               {features.map(({ key, icon: Icon }) => (
                 <div key={key} className="animate-on-scroll flex flex-col items-center text-center group">
                   <div className="w-14 h-14 flex items-center justify-center border border-white/10 mb-3 group-hover:border-[#2dd4bf] group-hover:shadow-[0_0_15px_rgba(45,212,191,0.2)] transition-all duration-300">
-                    <Icon className="w-6 h-6 text-[#00b4d8]" />
+                    <Icon className="w-6 h-6 text-[#10b981]" />
                   </div>
                   <span className="text-xs font-medium text-zinc-400 uppercase tracking-wider">{t(key)}</span>
                 </div>
