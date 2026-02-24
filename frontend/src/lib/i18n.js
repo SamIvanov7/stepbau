@@ -103,6 +103,24 @@ const translations = {
     datenschutz_title: "Datenschutzerklärung",
     datenschutz_text: "Verantwortlicher:\nStepan Tkachuk\nCranachstraße 23, 04177 Leipzig\nE-Mail: step.bau@outlook.de\n\nWir nehmen den Schutz Ihrer persönlichen Daten sehr ernst. Wir behandeln Ihre personenbezogenen Daten vertraulich und entsprechend der gesetzlichen Datenschutzvorschriften sowie dieser Datenschutzerklärung.\n\nDie Nutzung unserer Webseite ist in der Regel ohne Angabe personenbezogener Daten möglich. Soweit auf unseren Seiten personenbezogene Daten (beispielsweise Name, Anschrift oder E-Mail-Adressen) erhoben werden, erfolgt dies stets auf freiwilliger Basis.\n\nKontaktformular: Wenn Sie uns per Kontaktformular Anfragen zukommen lassen, werden Ihre Angaben aus dem Anfrageformular inklusive der von Ihnen dort angegebenen Kontaktdaten zwecks Bearbeitung der Anfrage und für den Fall von Anschlussfragen bei uns gespeichert.",
     
+    // Portfolio
+    portfolio_title: "Unsere Referenzen",
+    portfolio_subtitle: "Ausgewählte Projekte aus unserem Portfolio. Qualität, die für sich spricht.",
+    portfolio_project_1_title: "Deckenspachtelung Wohnanlage",
+    portfolio_project_1_desc: "Q3-Spachtelung einer Neubau-Wohnanlage, Leipzig",
+    portfolio_project_2_title: "Bodenverlegung Bürokomplex",
+    portfolio_project_2_desc: "Laminat-Verlegung auf 800m², Gewerbeobjekt",
+    portfolio_project_3_title: "Trockenbau Großprojekt",
+    portfolio_project_3_desc: "Abhangdecken und Ständerwände, Neubau",
+    portfolio_project_4_title: "Konferenzraum Ausbau",
+    portfolio_project_4_desc: "Kompletter Innenausbau, Büroflächen München",
+    portfolio_project_5_title: "Wandmontage & Beplankung",
+    portfolio_project_5_desc: "Trockenbau-Beplankung Mehrfamilienhaus",
+    portfolio_project_6_title: "Wohnungsausbau Neubau",
+    portfolio_project_6_desc: "Schlüsselfertige Innenausbau-Arbeiten",
+    portfolio_project_7_title: "Sanierung Altbau",
+    portfolio_project_7_desc: "Decken- und Wandsanierung, historisches Gebäude",
+    
     // Cookie
     cookie_text: "Diese Website verwendet Cookies, um Ihnen die bestmögliche Erfahrung zu bieten.",
     cookie_accept: "Akzeptieren",
