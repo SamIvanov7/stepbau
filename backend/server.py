@@ -37,7 +37,7 @@ class ContactForm(BaseModel):
     name: str
     firma: Optional[str] = ""
     telefon: str
-    email: str
+    email: EmailStr
     nachricht: str
     datenschutz: bool
 
