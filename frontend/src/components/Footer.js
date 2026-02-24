@@ -30,7 +30,7 @@ export default function Footer() {
 
           {/* Address */}
           <div>
-            <h4 className="text-xs font-mono text-[#00b4d8] tracking-[0.2em] uppercase mb-4">Adresse</h4>
+            <h4 className="text-xs font-mono text-[#10b981] tracking-[0.2em] uppercase mb-4">Adresse</h4>
             <p className="text-zinc-400 text-sm">
               {t('contact_address')}<br />
               {t('contact_city')}
@@ -39,7 +39,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div>
-            <h4 className="text-xs font-mono text-[#00b4d8] tracking-[0.2em] uppercase mb-4">{t('footer_contact')}</h4>
+            <h4 className="text-xs font-mono text-[#10b981] tracking-[0.2em] uppercase mb-4">{t('footer_contact')}</h4>
             <div className="space-y-3">
               <a href="tel:+4917641810937" className="flex items-center gap-2 text-zinc-400 hover:text-white text-sm transition-colors" data-testid="footer-phone">
                 <Phone className="w-3.5 h-3.5" />
@@ -54,7 +54,7 @@ export default function Footer() {
 
           {/* Legal */}
           <div>
-            <h4 className="text-xs font-mono text-[#00b4d8] tracking-[0.2em] uppercase mb-4">Legal</h4>
+            <h4 className="text-xs font-mono text-[#10b981] tracking-[0.2em] uppercase mb-4">Legal</h4>
             <div className="space-y-3">
               <Dialog>
                 <DialogTrigger asChild>
