@@ -132,6 +132,7 @@ const translations = {
     nav_services: "Services",
     nav_why: "Why us",
     nav_area: "Coverage",
+    nav_portfolio: "Portfolio",
     nav_contact: "Contact",
     
     // Hero
