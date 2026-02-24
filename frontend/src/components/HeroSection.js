@@ -30,13 +30,13 @@ export default function HeroSection() {
       <div className="relative z-10 max-w-7xl mx-auto px-6 md:px-12 w-full pt-24 md:pt-32">
         <div className="max-w-3xl">
           {/* Accent line */}
-          <div className="w-16 h-0.5 bg-[#00b4d8] mb-8" />
+          <div className="w-16 h-0.5 bg-[#10b981] mb-8" />
 
           <h1 className="font-black tracking-tight leading-[1.05]" data-testid="hero-title">
             <span className="block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-white">
               {t('hero_title_line1')}
             </span>
-            <span className="block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-[#00b4d8] mt-2">
+            <span className="block text-4xl sm:text-5xl lg:text-6xl xl:text-7xl text-[#10b981] mt-2">
               {t('hero_title_line2')}
             </span>
           </h1>
@@ -54,7 +54,7 @@ export default function HeroSection() {
           <div className="flex flex-col sm:flex-row gap-4 mt-12">
             <a
               href="tel:+4917641810937"
-              className="inline-flex items-center justify-center gap-3 bg-[#00b4d8] text-white px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all hover:shadow-[0_0_30px_rgba(0,180,216,0.4)]"
+              className="inline-flex items-center justify-center gap-3 bg-[#10b981] text-white px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all hover:shadow-[0_0_30px_rgba(0,180,216,0.4)]"
               data-testid="hero-call-btn"
             >
               <Phone className="w-4 h-4" />
@@ -62,7 +62,7 @@ export default function HeroSection() {
             </a>
             <button
               onClick={() => scrollTo('#contact')}
-              className="inline-flex items-center justify-center gap-3 bg-transparent border border-[#00b4d8] text-[#00b4d8] px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-[#00b4d8] hover:text-white transition-all"
+              className="inline-flex items-center justify-center gap-3 bg-transparent border border-[#10b981] text-[#10b981] px-8 py-4 text-sm font-bold uppercase tracking-widest hover:bg-[#10b981] hover:text-white transition-all"
               data-testid="hero-request-btn"
             >
               <FileText className="w-4 h-4" />
@@ -74,7 +74,7 @@ export default function HeroSection() {
 
       {/* Scroll indicator */}
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 flex flex-col items-center gap-2 opacity-50">
-        <div className="w-px h-12 bg-gradient-to-b from-transparent via-[#00b4d8] to-transparent animate-pulse" />
+        <div className="w-px h-12 bg-gradient-to-b from-transparent via-[#10b981] to-transparent animate-pulse" />
       </div>
     </section>
   );
