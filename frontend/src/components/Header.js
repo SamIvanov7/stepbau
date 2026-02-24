@@ -68,7 +68,7 @@ export default function Header() {
           </button>
           <a
             href="tel:+4917641810937"
-            className="flex items-center gap-2 bg-[#10b981] text-white px-5 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all hover:shadow-[0_0_20px_rgba(0,180,216,0.4)]"
+            className="flex items-center gap-2 bg-[#10b981] text-white px-5 py-2.5 text-xs font-bold uppercase tracking-widest hover:bg-[#059669] transition-all hover:shadow-[0_0_20px_rgba(0,180,216,0.4)]"
             data-testid="header-call-btn"
           >
             <Phone className="w-3.5 h-3.5" />
@@ -107,7 +107,7 @@ export default function Header() {
                 ))}
                 <a
                   href="tel:+4917641810937"
-                  className="flex items-center justify-center gap-2 bg-[#10b981] text-white px-5 py-3 mt-6 text-sm font-bold uppercase tracking-widest hover:bg-[#0096c7] transition-all"
+                  className="flex items-center justify-center gap-2 bg-[#10b981] text-white px-5 py-3 mt-6 text-sm font-bold uppercase tracking-widest hover:bg-[#059669] transition-all"
                   data-testid="mobile-call-btn"
                 >
                   <Phone className="w-4 h-4" />
