@@ -165,7 +165,7 @@ export default function ContactSection() {
 
               <div className="space-y-6">
                 <div className="flex items-start gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center border border-[#2dd4bf]/30 flex-shrink-0">
+                  <div className="w-10 h-10 flex items-center justify-center border border-[#34d399]/30 flex-shrink-0">
                     <MapPin className="w-4 h-4 text-[#10b981]" />
                   </div>
                   <div>
@@ -177,7 +177,7 @@ export default function ContactSection() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center border border-[#2dd4bf]/30 flex-shrink-0">
+                  <div className="w-10 h-10 flex items-center justify-center border border-[#34d399]/30 flex-shrink-0">
                     <Phone className="w-4 h-4 text-[#10b981]" />
                   </div>
                   <a href="tel:+4917641810937" className="text-white hover:text-[#10b981] transition-colors text-sm" data-testid="contact-phone-link">
@@ -186,7 +186,7 @@ export default function ContactSection() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center border border-[#2dd4bf]/30 flex-shrink-0">
+                  <div className="w-10 h-10 flex items-center justify-center border border-[#34d399]/30 flex-shrink-0">
                     <Mail className="w-4 h-4 text-[#10b981]" />
                   </div>
                   <a href="mailto:step.bau@outlook.de" className="text-white hover:text-[#10b981] transition-colors text-sm" data-testid="contact-email-link">
@@ -195,7 +195,7 @@ export default function ContactSection() {
                 </div>
 
                 <div className="flex items-center gap-4">
-                  <div className="w-10 h-10 flex items-center justify-center border border-[#2dd4bf]/30 flex-shrink-0">
+                  <div className="w-10 h-10 flex items-center justify-center border border-[#34d399]/30 flex-shrink-0">
                     <MessageCircle className="w-4 h-4 text-[#25d366]" />
                   </div>
                   <a
