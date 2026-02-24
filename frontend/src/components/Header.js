@@ -9,6 +9,7 @@ const navLinks = [
   { key: 'nav_about', href: '#about' },
   { key: 'nav_services', href: '#services' },
   { key: 'nav_why', href: '#why' },
+  { key: 'nav_portfolio', href: '#portfolio' },
   { key: 'nav_area', href: '#coverage' },
   { key: 'nav_contact', href: '#contact' },
 ];
