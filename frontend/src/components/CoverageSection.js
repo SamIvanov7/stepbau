@@ -11,7 +11,7 @@ export default function CoverageSection() {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header */}
         <div className="animate-on-scroll mb-16">
-          <p className="text-xs font-mono text-[#00b4d8] tracking-[0.3em] uppercase mb-4">{t('nav_area')}</p>
+          <p className="text-xs font-mono text-[#10b981] tracking-[0.3em] uppercase mb-4">{t('nav_area')}</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight" data-testid="coverage-title">
             {t('coverage_title')}
           </h2>
@@ -44,7 +44,7 @@ export default function CoverageSection() {
               <div className="space-y-4">
                 <div className="flex items-center gap-4">
                   <div className="w-10 h-10 flex items-center justify-center border border-[#2dd4bf]/30">
-                    <MapPin className="w-5 h-5 text-[#00b4d8]" />
+                    <MapPin className="w-5 h-5 text-[#10b981]" />
                   </div>
                   <div>
                     <p className="text-white font-medium text-sm">{t('coverage_hq')}</p>
@@ -67,7 +67,7 @@ export default function CoverageSection() {
             {/* Quick stats */}
             <div className="bg-[#111111] border border-white/10 p-6 flex items-center justify-around">
               <div className="text-center">
-                <span className="block text-2xl font-black text-[#00b4d8]">16</span>
+                <span className="block text-2xl font-black text-[#10b981]">16</span>
                 <span className="text-[10px] text-zinc-500 uppercase tracking-widest font-mono">Bundesländer</span>
               </div>
               <div className="w-px h-10 bg-white/10" />
