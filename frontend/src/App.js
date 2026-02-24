@@ -6,6 +6,7 @@ import HeroSection from '@/components/HeroSection';
 import AboutSection from '@/components/AboutSection';
 import ServicesSection from '@/components/ServicesSection';
 import WhyUsSection from '@/components/WhyUsSection';
+import PortfolioSection from '@/components/PortfolioSection';
 import CoverageSection from '@/components/CoverageSection';
 import ContactSection from '@/components/ContactSection';
 import Footer from '@/components/Footer';
