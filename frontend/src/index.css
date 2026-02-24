@@ -97,13 +97,13 @@ code {
 
 /* Neon border glow effect */
 .neon-border {
-  border: 1px solid rgba(45, 212, 191, 0.3);
-  box-shadow: 0 0 10px rgba(45, 212, 191, 0.1);
+  border: 1px solid rgba(52, 211, 153, 0.3);
+  box-shadow: 0 0 10px rgba(52, 211, 153, 0.1);
 }
 
 .neon-border-hover:hover {
-  border-color: #2dd4bf;
-  box-shadow: 0 0 20px rgba(45, 212, 191, 0.25);
+  border-color: #34d399;
+  box-shadow: 0 0 20px rgba(52, 211, 153, 0.25);
 }
 
 /* Glass morphism */
