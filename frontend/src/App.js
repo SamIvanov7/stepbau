@@ -33,6 +33,7 @@ function App() {
           <AboutSection />
           <ServicesSection />
           <WhyUsSection />
+          <PortfolioSection />
           <CoverageSection />
           <ContactSection />
         </main>
