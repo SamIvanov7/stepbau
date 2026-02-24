@@ -1,0 +1,122 @@
+{
+  "brand_identity": {
+    "name": "STEPBAU",
+    "tagline": "Präzision am Bau. Ihr Partner für Trockenbau & Innenausbau.",
+    "tone": "Professional, Solid, German Precision, Modern, Efficient",
+    "theme_mode": "dark",
+    "emotional_archetype": "The Performance Pro (Elite Construction)",
+    "design_style": "Neon Contour Industrial"
+  },
+  "typography": {
+    "headings": {
+      "family": "Montserrat",
+      "weights": ["700", "900"],
+      "usage": "Use Black (900) for Hero headlines, Bold (700) for Section titles. Tracking tight (-0.02em)."
+    },
+    "body": {
+      "family": "Poppins",
+      "weights": ["300", "400", "500"],
+      "usage": "Light (300) for large intro text, Regular (400) for standard reading. Relaxed line-height."
+    },
+    "technical": {
+      "family": "JetBrains Mono",
+      "weights": ["400"],
+      "usage": "Use for small labels, stats, or 'form' elements to give a technical blueprint feel."
+    }
+  },
+  "colors": {
+    "primary": {
+      "base": "#00b4d8",
+      "hover": "#0096c7",
+      "description": "Stepbau Teal - Used for primary buttons, active states, and key highlights."
+    },
+    "secondary": {
+      "base": "#2dd4bf",
+      "glow": "rgba(45, 212, 191, 0.5)",
+      "description": "Neon Teal - Used for borders, glowing effects, and 'contour' lines."
+    },
+    "background": {
+      "main": "#0a0a0a",
+      "card": "#111111",
+      "section": "#0f0f0f",
+      "overlay": "rgba(10, 10, 10, 0.8)"
+    },
+    "text": {
+      "primary": "#ffffff",
+      "secondary": "#a1a1aa",
+      "muted": "#52525b"
+    },
+    "status": {
+      "success": "#10b981",
+      "error": "#ef4444"
+    }
+  },
+  "layout_strategies": {
+    "container": "max-w-7xl mx-auto px-6 md:px-12",
+    "spacing": "Generous. Section padding: py-24 or py-32. Element gaps: gap-8 to gap-16.",
+    "grid_system": "Bento Grid (Mode A). Mix of col-span-4, col-span-8, and col-span-full.",
+    "border_style": "1px solid rgba(255,255,255,0.1). Active borders: 1px solid #2dd4bf with drop-shadow."
+  },
+  "components": {
+    "buttons": {
+      "primary": "bg-[#00b4d8] text-white hover:bg-[#0096c7] rounded-none uppercase tracking-widest font-bold px-8 py-4 transition-all hover:shadow-[0_0_20px_rgba(0,180,216,0.4)]",
+      "outline": "bg-transparent border border-[#00b4d8] text-[#00b4d8] hover:bg-[#00b4d8] hover:text-white rounded-none uppercase tracking-widest font-bold px-8 py-4"
+    },
+    "cards": {
+      "service_card": "bg-[#111111] border border-white/10 p-8 hover:border-[#2dd4bf] hover:shadow-[0_0_15px_rgba(45,212,191,0.2)] transition-all duration-300 group relative overflow-hidden",
+      "feature_card": "bg-transparent border-l-2 border-[#2dd4bf] pl-6 py-2"
+    },
+    "inputs": {
+      "style": "bg-[#1a1a1a] border border-white/10 focus:border-[#00b4d8] text-white p-4 rounded-none focus:ring-1 focus:ring-[#00b4d8] transition-colors"
+    }
+  },
+  "visual_enhancers": {
+    "neon_contour": "Use specific 'border-glow' utility: border border-teal-400/30 shadow-[0_0_10px_rgba(45,212,191,0.1)]",
+    "textures": "Use subtle noise overlay on the #0a0a0a background to prevent banding and add 'concrete' feel.",
+    "scroll_animations": "Elements should fade-up (opacity 0 -> 1, y 20 -> 0) as they enter viewport.",
+    "tracing_beam": "On Service Cards, implement a hover effect where a gradient border traces the edge."
+  },
+  "images": {
+    "hero_background": {
+      "url": "https://images.unsplash.com/photo-1768321914054-d20536157eb1?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHw0fHxtb2Rlcm4lMjBkcnl3YWxsJTIwY29uc3RydWN0aW9uJTIwaW50ZXJpb3IlMjBmaW5pc2hpbmclMjB3b3JrZXIlMjBmbG9vcmluZyUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3NzE5MzY5MDF8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Modern interior construction site hallway",
+      "usage": "Hero section background with heavy dark overlay (bg-black/70)"
+    },
+    "drywall_detail": {
+      "url": "https://images.unsplash.com/photo-1768321914136-8329ceafb160?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDk1ODF8MHwxfHNlYXJjaHwyfHxtb2Rlcm4lMjBkcnl3YWxsJTIwY29uc3RydWN0aW9uJTIwaW50ZXJpb3IlMjBmaW5pc2hpbmclMjB3b3JrZXIlMjBmbG9vcmluZyUyMGluc3RhbGxhdGlvbnxlbnwwfHx8fDE3NzE5MzY5MDF8MA&ixlib=rb-4.1.0&q=85",
+      "alt": "Metal stud framing for drywall",
+      "usage": "Service card background or 'About Us' side image"
+    },
+    "team_architects": {
+      "url": "https://images.pexels.com/photos/7937659/pexels-photo-7937659.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+      "alt": "Architects discussing blueprints",
+      "usage": "Trust section / Why Stepbau"
+    }
+  },
+  "sections_structure": {
+    "header": "Fixed, blurred glass (backdrop-blur-md bg-black/50). Logo left, Nav right (hidden mobile), Hamburger mobile.",
+    "hero": "Full height (min-h-screen). Centralized bold text 'MEISTERHAFTE PRÄZISION'. Two Buttons: 'JETZT ANRUFEN' (Primary), 'ANGEBOT ANFRAGEN' (Outline).",
+    "services": "Grid layout. 6 Cards: Trockenbau, Innenausbau, Bodenverlegung, Brandschutz, Akustikbau, Malerarbeiten. Each card has an icon and hover reveal text.",
+    "why_us": "3-Col layout. 'Terminstreu', 'Qualitätsgarantie', 'Bundesweit'. Use big neon numbers (01, 02, 03).",
+    "map": "Full width dark map (custom style). Overlay card for Contact Info.",
+    "contact": "Simple form: Name, Firm, Email, Phone, Message. Checkbox for Datenschutz.",
+    "footer": "Simple 4-col. Address, Links (Impressum, Datenschutz), Socials. Copyright."
+  },
+  "instructions_to_main_agent": [
+    "1. SETUP: Install 'lucide-react' for icons. Use 'framer-motion' for scroll animations.",
+    "2. THEME: Force DARK MODE class on the html element. Do not implement light mode toggle unless explicitly asked (Guidelines say Dark Theme preferred).",
+    "3. FONT: Import Montserrat and Poppins from Google Fonts in index.css.",
+    "4. NEON: Create a custom utility class '.neon-border' that applies the teal shadow.",
+    "5. MAP: Use a placeholder static image or iframe for Google Maps with a grayscale filter (`filter: grayscale(100%) invert(90%)`) to match the dark theme.",
+    "6. FORM: Ensure the contact form has the 'Datenschutz' checkbox required by German law (DSGVO).",
+    "7. LANGUAGE: Add a small text toggle 'DE | EN' in the navbar. Default to DE.",
+    "8. ANTI-AI: Do not center the Hero text perfectly. Offset it slightly or use a heavy left align with a massive font size (text-6xl md:text-8xl)."
+  ],
+  "universal_guidelines": [
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients.",
+    "Don't make generic centered layouts.",
+    "Create depth through layered design elements with z-index hierarchy.",
+    "Use glass-morphism effects with backdrop filters (12-24px blur) for the Navbar and Contact Overlay.",
+    "NEVER use AI assistant Emoji characters."
+  ]
+}
