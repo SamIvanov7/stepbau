@@ -19,7 +19,7 @@ export default function WhyUsSection() {
       <div className="max-w-7xl mx-auto px-6 md:px-12">
         {/* Header */}
         <div className="animate-on-scroll mb-16">
-          <p className="text-xs font-mono text-[#00b4d8] tracking-[0.3em] uppercase mb-4">{t('nav_why')}</p>
+          <p className="text-xs font-mono text-[#10b981] tracking-[0.3em] uppercase mb-4">{t('nav_why')}</p>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-white tracking-tight" data-testid="why-title">
             {t('why_title')}
           </h2>
@@ -44,7 +44,7 @@ export default function WhyUsSection() {
                 {/* Content */}
                 <div className="border-l-2 border-[#2dd4bf]/30 pl-6 group-hover:border-[#2dd4bf] transition-colors duration-300">
                   <div className="flex items-center gap-3 mb-2">
-                    <Icon className="w-4 h-4 text-[#00b4d8]" />
+                    <Icon className="w-4 h-4 text-[#10b981]" />
                     <h3 className="text-base font-bold text-white tracking-tight">
                       {t(`why_${key}`)}
                     </h3>
